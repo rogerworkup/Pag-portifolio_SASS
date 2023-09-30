@@ -3,7 +3,11 @@ import mns_project from "../img/MyNeighborhoodSpeak.png"
 import "../styles/components/projectscontainer.sass";
 
 const projects = [
-  {name: "My Neighborhood Speak", icon: <img src={mns_project} alt="MnS" /> },
+  {
+  name: "My Neighborhood Speak",
+  icon: <img src={mns_project} alt="MnS" />,
+  description: "Quiz sobre a língua inglesa com premiação em Pix (R$) para os primeiros colocados. Desafio que incentiva alunos do ensino médio das escolas do bairro a praticar o idioma, esse que é tão importante para o mercado de trabalho e para a vida.",
+  },
 ];
 
 const ProjectsContainer = () => {
@@ -13,8 +17,12 @@ const ProjectsContainer = () => {
         <div className="projects-grid">
         {projects.map((proj) => (
           <div className="projects-card" id={proj.id} key={proj.id}>
-            <div className="projects-icon">
-              {proj.icon}
+            {proj.icon}
+            <div className="projects-info">
+              <h3>{proj.name}</h3>
+              <p>
+                {proj.description}
+              </p>
             </div>
             
           </div>

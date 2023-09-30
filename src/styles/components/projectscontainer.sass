@@ -1,6 +1,22 @@
 @use '../variables'
 @use '../mixins'
 
+.projects-grid
+    display: grid
+    flex-wrap: wrap
+    gap: 1.5rem
+
+.projects-card
+    @include mixins.center
+    gap: 1rem
+    padding: 1rem
+    border: 1px solid #333
+    border-radius: variables.$card-border-radius
+
+    h3, p
+        color: variables.$text-color
+
+
 img
     max-width: 25%
     position: center

@@ -6,7 +6,7 @@ const projects = [
   {
   name: "My Neighborhood Speak",
   icon: <img src={mns_project} alt="MnS" />,
-  description: "Quiz sobre a língua inglesa com premiação em Pix (R$) para os primeiros colocados. Desafio que incentiva alunos do ensino médio das escolas do bairro a praticar o idioma, esse que é tão importante para o mercado de trabalho e para a vida.",
+  description: "Quiz sobre a língua inglesa com premiação em Pix (R$) para os primeiros colocados. Desafio que incentiva alunos do ensino médio das escolas do bairro a praticar o idioma, este que é tão importante para o mercado de trabalho e para a vida.",
   },
 ];
 

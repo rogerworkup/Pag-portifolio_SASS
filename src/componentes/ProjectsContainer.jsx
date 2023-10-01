@@ -1,4 +1,4 @@
-import mns_project from "../img/MyNeighborhoodSpeak.png"
+import mns_project from "../img/MyNeighborhoodSpeak-cropped.png"
 
 import "../styles/components/projectscontainer.sass";
 

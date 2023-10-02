@@ -1,6 +1,6 @@
 import { AiFillEnvironment } from "react-icons/ai";
 
-import '../styles/components/informationContainer.sass'
+import '../styles/components/informationcontainer.sass'
 
 const InformationContainer = () => {
   return (

@@ -1,5 +1,5 @@
-import MainContent from "./componentes/MainContent";
-import Sidebar from "./componentes/Sidebar";
+import MainContent from "./componentes/MainContent.jsx";
+import Sidebar from "./componentes/Sidebar.jsx";
 
 import "./styles/components/app.sass";
 

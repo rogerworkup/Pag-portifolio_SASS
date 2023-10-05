@@ -1,11 +1,11 @@
-import mns_project from "../img/MyNeighborhoodSpeak.png";
+import mns_project from "../img/MyNeighborhoodSpeaks-cropped.png";
 
 
 import "../styles/components/projectscontainer.sass";
 
 const projects = [
   {
-    name: "My Neighborhood Speak",
+    name: "My Neighborhood Speaks",
     icon: <a href="https://mynspeak.rogerworkup.com.br" target="_blank" className="link-icon"><img src={mns_project} alt="MnS" /></a>,
     description:
       "Quiz sobre a língua inglesa com premiação em Pix (R$) para os primeiros colocados. Desafio que incentiva alunos do ensino médio das escolas do bairro a praticar o idioma, este que é tão importante para o mercado de trabalho e para a vida.",
